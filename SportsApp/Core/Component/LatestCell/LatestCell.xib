@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LatestCell" id="AvT-e3-8aK" customClass="LatestCell" customModule="ProjectCollectionn" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="216"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="399" height="216"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="league" translatesAutoresizingMaskIntoConstraints="NO" id="kpI-7g-J3o">
+                        <rect key="frame" x="0.0" y="0.0" width="399" height="216"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="VMA-hJ-A2K">
+                        <rect key="frame" x="0.0" y="0.0" width="399" height="20.333333333333332"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Match Finished" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjw-iM-eHv">
+                                <rect key="frame" x="0.0" y="0.0" width="399" height="20.333333333333332"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="gTC-v3-cAx">
+                        <rect key="frame" x="0.0" y="25.333333333333329" width="399" height="175.66666666666669"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="x2h-v4-KV0">
+                                <rect key="frame" x="0.0" y="0.0" width="124.66666666666667" height="175.66666666666666"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="b3" translatesAutoresizingMaskIntoConstraints="NO" id="AxD-yK-T4d">
+                                        <rect key="frame" x="0.0" y="0.0" width="124.66666666666667" height="145.33333333333334"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barcelona" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3g-A0-2Js">
+                                        <rect key="frame" x="0.0" y="155.33333333333331" width="124.66666666666667" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Cqd-Ap-aro">
+                                <rect key="frame" x="274.66666666666669" y="0.0" width="124.33333333333331" height="175.66666666666666"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="re" translatesAutoresizingMaskIntoConstraints="NO" id="oxV-WI-CE3">
+                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="145.33333333333334"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Real Madrid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ta-ZB-o5x">
+                                        <rect key="frame" x="0.0" y="155.33333333333331" width="124.33333333333333" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="yuW-Gu-Et3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gTC-v3-cAx" secondAttribute="trailing" id="AiY-Jy-uJt"/>
+                <constraint firstAttribute="bottom" secondItem="gTC-v3-cAx" secondAttribute="bottom" constant="15" id="Fdg-DO-fRx"/>
+                <constraint firstAttribute="trailing" secondItem="VMA-hJ-A2K" secondAttribute="trailing" id="MGY-yA-BGU"/>
+                <constraint firstItem="gTC-v3-cAx" firstAttribute="leading" secondItem="AvT-e3-8aK" secondAttribute="leading" id="RKp-7u-ee9"/>
+                <constraint firstItem="VMA-hJ-A2K" firstAttribute="top" secondItem="AvT-e3-8aK" secondAttribute="top" id="dj6-rV-VzK"/>
+                <constraint firstItem="gTC-v3-cAx" firstAttribute="top" secondItem="VMA-hJ-A2K" secondAttribute="bottom" constant="5" id="gdM-P3-3Jh"/>
+                <constraint firstAttribute="trailing" secondItem="kpI-7g-J3o" secondAttribute="trailing" id="idh-d9-MfH"/>
+                <constraint firstItem="VMA-hJ-A2K" firstAttribute="leading" secondItem="AvT-e3-8aK" secondAttribute="leading" id="jfW-lg-oUF"/>
+                <constraint firstItem="kpI-7g-J3o" firstAttribute="top" secondItem="AvT-e3-8aK" secondAttribute="top" id="ui0-lm-zCd"/>
+                <constraint firstItem="kpI-7g-J3o" firstAttribute="leading" secondItem="AvT-e3-8aK" secondAttribute="leading" id="vlc-wg-n7W"/>
+                <constraint firstAttribute="bottom" secondItem="kpI-7g-J3o" secondAttribute="bottom" id="wld-c3-Euj"/>
+            </constraints>
+            <size key="customSize" width="399" height="216"/>
+            <point key="canvasLocation" x="365.64885496183206" y="-160.56338028169014"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="b3" width="195" height="195"/>
+        <image name="league" width="563" height="279"/>
+        <image name="re" width="549" height="768"/>
+    </resources>
+</document>
